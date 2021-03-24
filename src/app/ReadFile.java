@@ -8,6 +8,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Stream;
 
 public class ReadFile {
+    //reads all lines in a txt file and split each line up in strings and add the to a studentlist
     public List<Student> readAllStudents() {
         List<Student> students = new ArrayList<>();
         List<String> groups = new ArrayList<>();
@@ -17,7 +18,9 @@ public class ReadFile {
         //Could also use int = lineCounter = 0; and increment with ++, instead of lineCount.getAndIncrement()
         AtomicLong lineCount = new AtomicLong();
         try {
-            Stream<String> stream = Files.lines(Paths.get("Grupper.txt"));
+            //note: Lambda expressions: parameter -> expression or parameter -> { code block } for more complex code
+            //note: Lambda expressions are similar to method, but do not need a name and can be used directly in method body
+            Stream<String> stream = Files.lines(Paths.get("Grupper.txt")); //reads all lines from a file as a stream
             stream.forEach(s -> {
                 //When the string is split at ; it is split into a array where [number] == string
                 groups.add(s.split(";")[0]);
@@ -37,11 +40,12 @@ public class ReadFile {
         return students;
     }
 
+    //reads all lines in a txt file and split each line up in strings and add the to a studentlist
     //removed unnecessary code from the method above
     public List<Student> readAllStudentsRefined() {
         List<Student> students = new ArrayList<>();
         try {
-            Stream<String> stream = Files.lines(Paths.get("Grupper.txt"));
+            Stream<String> stream = Files.lines(Paths.get("Grupper.txt")); //reads all lines from a file as a stream
             stream.forEach(s -> {
                 //When the string is split at ; it is split into a array where [number] == string
                 Student student= new Student(s.split(";")[0],s.split(";")[1],s.split(";")[2],s.split(";")[3]);

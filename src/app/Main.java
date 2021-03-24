@@ -16,6 +16,7 @@ public class Main {
         //Title: Exercise 1
         System.out.println("----------------------------------------------------------------------------------------------------------");
         System.out.println("Exercise 1: Find your group for examinationproject and print using streams and lambda");
+        //Takes the range from 0 to studentlist size(iterate through studentlist). Filter the list for students in group E, map them to objects and print
         IntStream.range(0,studentList.size()).filter(i->studentList.get(i).getGroup().equals("E")).mapToObj(i -> studentList.get(i)).forEach(System.out::println);
 
         System.out.println("----------------------------------------------------------------------------------------------------------");
