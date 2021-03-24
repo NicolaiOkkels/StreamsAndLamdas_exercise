@@ -1,0 +1,28 @@
+A;alex8943@stud.kea.dk;Alexander;Stohn
+A;bila0765@stud.kea.dk;Bilal;Ajane
+A;patr463f@stud.kea.dk;Patrick Vincent;H?jstr?m
+A;kasp350t@stud.kea.dk;Kasper;Fauerby
+B;simo426a@stud.kea.dk;Simon Klejnstrup;Pedersen
+B;mikk864n@stud.kea.dk;Mikkel Vase;Frederiksen
+B;rasm45g8@stud.kea.dk;Rasmus;Skovbo
+B;thom622g@stud.kea.dk;Thomas;Simonsen
+C;fred238a@stud.kea.dk;Frederik Vagner;Pedersen
+C;yann0083@stud.kea.dk;Yannick Brot;Christensen
+C;maxx3856@stud.kea.dk;Max Thomas;Meldal
+D;joer1894@stud.kea.dk;J?rgen Bent Vognstrup;K?ldal
+D;mati5651@stud.kea.dk;Matias Ammentorp;Storm
+D;maja669e@stud.kea.dk;Maja;Bijedic
+D;phil264a@stud.kea.dk;Phillip Vendel;Glim?
+E;dani16c6@stud.kea.dk;Daniel;Causevic
+E;laur977n@stud.kea.dk;Laurits Nymand;Svendsen
+E;nico902t@stud.kea.dk;Nicolai Holmgaard;Okkels
+F;merc2896@stud.kea.dk;Mercurio Vicenti;Santin Alvarez
+F;erha0045@stud.kea.dk;Erhan;Basaran
+F;thom63q6@stud.kea.dk;Thomas;Luff
+F;umit0135@stud.kea.dk;?mit;Arabaci
+X;ande8548@stud.kea.dk;Anders;Hesselbjerg
+X;edmo0019@stud.kea.dk;Edmond;Bidjeck
+X;jako682i@stud.kea.dk;Jakob Melchior;Nissen
+X;perx348f@stud.kea.dk;Per;Handberg
+X;rasm63f4@stud.kea.dk;Rasmus Marco;Berg
+X;thom51r1@stud.kea.dk;Thomas B?gh;Melgarejo
