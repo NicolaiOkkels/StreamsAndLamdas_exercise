@@ -12,8 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    ReadFile readFile = new ReadFile();
-        List<Student> studentList = readFile.readAllStudents();
-
+        List<Student> studentList = readFile.readAllStudentsRefined();
         //Title: Exercise 1
         System.out.println("----------------------------------------------------------------------------------------------------------");
         System.out.println("Exercise 1: Find your group for examinationproject and print using streams and lambda");

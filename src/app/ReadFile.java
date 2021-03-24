@@ -36,4 +36,23 @@ public class ReadFile {
         }
         return students;
     }
+
+    //removed unnecessary code from the method above
+    public List<Student> readAllStudentsRefined() {
+        List<Student> students = new ArrayList<>();
+        //Could also use int = lineCounter = 0; and increment with ++, instead of lineCount.getAndIncrement()
+        AtomicLong lineCount = new AtomicLong();
+        try {
+            Stream<String> stream = Files.lines(Paths.get("Grupper.txt"));
+            stream.forEach(s -> {
+                //When the string is split at ; it is split into a array where [number] == string
+                Student student= new Student(s.split(";")[0],s.split(";")[1],s.split(";")[2],s.split(";")[3]);
+                students.add(student);
+                lineCount.getAndIncrement();
+            });
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
+        return students;
+    }
 }
